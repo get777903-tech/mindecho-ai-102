@@ -456,17 +456,19 @@ h1, h2, h3, h4 {
 
 .sample-quote {
   font-style: italic;
-  font-size: 14px;
-  color: #E2E8F0;
+  font-size: 16px;
+  font-weight: 500;
+  color: #F1F5F9;
   margin-bottom: 20px;
-  line-height: 1.5;
+  line-height: 1.6;
 }
 
 .card-footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  font-size: 12px;
+  font-size: 15px;
+  font-weight: 700;
   color: var(--color-cyan);
 }
 
@@ -499,7 +501,7 @@ h1, h2, h3, h4 {
 }
 
 .section-title { font-size: 40px; font-weight: 800; margin-bottom: 16px; }
-.section-subtitle { font-size: 17px; color: var(--text-muted); max-width: 680px; margin: 0 auto; }
+.section-subtitle { font-size: 18px; font-weight: 500; color: #CBD5E1; max-width: 720px; margin: 0 auto; line-height: 1.6; }
 
 /* 4 Super-Missions Grid */
 .missions-grid {
@@ -530,12 +532,12 @@ h1, h2, h3, h4 {
 .gradient-cyan { background: rgba(6, 182, 212, 0.2); border: 1px solid var(--color-cyan); }
 .gradient-pink { background: rgba(236, 72, 153, 0.2); border: 1px solid var(--color-pink); }
 
-.mission-card h3 { font-size: 20px; margin-bottom: 12px; }
-.mission-card p { font-size: 14px; color: var(--text-muted); margin-bottom: 24px; flex: 1; }
+.mission-card h3 { font-size: 22px; font-weight: 800; margin-bottom: 14px; }
+.mission-card p { font-size: 16px; font-weight: 500; color: #CBD5E1; margin-bottom: 24px; flex: 1; line-height: 1.65; }
 
 .card-footer-tag {
-  font-size: 12px;
-  font-weight: 600;
+  font-size: 15px;
+  font-weight: 700;
   color: var(--color-cyan);
   border-top: 1px solid rgba(255, 255, 255, 0.08);
   padding-top: 16px;
@@ -569,8 +571,8 @@ h1, h2, h3, h4 {
 }
 
 .mode-icon { font-size: 48px; margin-bottom: 20px; }
-.mode-card h3 { font-size: 22px; margin-bottom: 12px; }
-.mode-card p { font-size: 14px; color: var(--text-muted); margin-bottom: 28px; }
+.mode-card h3 { font-size: 24px; font-weight: 800; margin-bottom: 14px; }
+.mode-card p { font-size: 16px; font-weight: 500; color: #CBD5E1; margin-bottom: 28px; line-height: 1.6; }
 
 /* Emergency Tantrum Panel */
 .emergency-panel {
@@ -587,7 +589,7 @@ h1, h2, h3, h4 {
   margin-bottom: 28px;
 }
 
-.panel-header h3 { color: var(--color-orange); font-size: 22px; }
+.panel-header h3 { color: var(--color-orange); font-size: 24px; font-weight: 800; }
 
 .btn-close {
   background: transparent;
@@ -628,8 +630,8 @@ h1, h2, h3, h4 {
   font-weight: 800;
 }
 
-.step-box h4 { font-size: 15px; margin-bottom: 8px; margin-top: 6px; color: #fff; }
-.step-box p { font-size: 12px; color: var(--text-muted); }
+.step-box h4 { font-size: 17px; font-weight: 700; margin-bottom: 8px; margin-top: 6px; color: #fff; }
+.step-box p { font-size: 15px; font-weight: 500; color: #E2E8F0; line-height: 1.5; }
 
 .emergency-input-box label {
   display: block;
@@ -915,8 +917,10 @@ input:checked + .slider:before { transform: translateX(28px); }
   flex: 1;
   display: flex;
   flex-direction: column;
-  gap: 12px;
-  font-size: 15px;
+  gap: 14px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #F1F5F9;
 }
 
 /* Topup Box */
